@@ -13,8 +13,7 @@ import UpdateProfile from './components/UpdateProfile';
 function App() {
 
   const {currentUser} = useAuth()
-
-
+  
   return (
     <Router>
       <AuthProvider>
